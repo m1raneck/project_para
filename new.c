@@ -10,6 +10,10 @@ int main( void )
 
     for (int i = 0; i < 5; ++i)
         printf("hello git\n");
-        
+
+    char *ptr = NULL;
+    int ar[][2] = {{1, 2}, {4, 5}};
+    ptr = ar;
+
     return 0;
 }
