@@ -12,6 +12,8 @@ int main( void )
         printf("hello git\n");
 
     char *ptr = NULL;
+    int ar[][2] = {{1, 2}, {4, 5}};
+    ptr = ar;
 
     return 0;
 }
