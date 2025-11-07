@@ -10,6 +10,8 @@ int main( void )
 
     for (int i = 0; i < 5; ++i)
         printf("hello git\n");
-        
+
+    char *ptr = NULL;
+
     return 0;
 }
